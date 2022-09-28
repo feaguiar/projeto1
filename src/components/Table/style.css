@@ -1,0 +1,46 @@
+.container-table {
+    width: 100%;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    padding: 0 24px;
+    background-color: #F4F0F0;
+    margin: 0 40px 0 240px;
+    text-align: left;
+
+}
+
+.table-header strong,
+.table-row span {
+    width: 25%;
+    padding: 10px 32px;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-row {
+    background-color: #FFFAFA;
+    height: 46px;
+    margin: 0 40px 0 240px;
+    padding: 10px;
+    position: relative;
+}
+
+.table-row:first-child {
+    margin-top: 24px;
+}
+
+.container-icons {
+    display: flex;
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    right: 100px;
+    cursor: pointer;
+}

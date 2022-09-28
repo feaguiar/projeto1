@@ -1,0 +1,19 @@
+.modal-confirm {
+    justify-content: center;
+    border-radius: 8px;
+    width: 470px;
+    height: 560px;
+    text-align: center;
+}
+
+.modal h2 {
+    margin-bottom: 30px;
+}
+
+.container-buttons {
+    width: 100%;
+}
+
+.btn-confirm {
+    margin-top: 50px;
+}

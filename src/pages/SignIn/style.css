@@ -1,0 +1,39 @@
+.container-sign-in {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-sign-in img {
+    width: 50%;
+}
+
+.container-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right span:first-child {
+    margin-bottom: 8px;
+    width: 400px;
+    text-align: left;
+}
+
+.container-right h1 {
+    margin-bottom: 32px;
+    width: 400px;
+    text-align: left;
+    font-size: 29px;
+}
+
+.container-right form {
+    width: 400px;
+}
+
+.container-right button {
+    margin-top: 72px;
+    margin-bottom: 96px;
+}
